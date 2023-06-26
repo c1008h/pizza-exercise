@@ -35,7 +35,7 @@ export const Homepage = () => {
     }
 
     return (
-        <div style={{alignContent:'center', textAlign:'center', position:'relative', top:'100px'}}>
+        <div style={{alignContent:'center', background:'white', height:'600px', textAlign:'center', position:'relative', top:'100px'}}>
             <div id="display" className="combination-container" style={{alignContent:'center', textAlign:'center'}}>
                 <table>
                     <thead>
