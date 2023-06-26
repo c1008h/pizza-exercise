@@ -20,7 +20,7 @@ export const Homepage = () => {
             toppingsCount.set(toppings, count + 1)
         })
 
-        const sortedCombination = Array.from(toppingsCount.entries()).sort((a, b) => b[1])
+        const sortedCombination = Array.from(toppingsCount.entries()).sort((a, b) => b[1] - a[1])
         
       
         const displayContent = sortedCombination.slice(0, 20).map(([combination, count], index) => (
